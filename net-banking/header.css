@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+       border-bottom: 2px solid black;
+   
+}
+
+.flex-container-header {
+       background: url("images/w1.jpg") no-repeat center center fixed;
+    background-size: cover;
+
+    display: -webkit-flex;
+    width: auto;
+    height: auto;
+   border-bottom: 2px solid black;
+}
+
+.flex-item-header {
+ 
+    width: auto;
+    height: 100px;
+    margin: 10px;
+}
+
+p {
+     
+    font-family: OpenSans-Light;
+    color: black;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-left: 25rem;
+    margin-top: calc((1.5rem - 2rem) + 2.5rem);
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 855px) {
+  p {
+      font-size: 2.5rem;
+      line-height: 2.5rem;
+      margin-top: calc((1.5rem - 2rem) + 2rem);
+      margin-bottom: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  p {
+      font-size: 2rem;
+      line-height: 2rem;
+      margin-top: calc((1.5rem - 2rem) + 1.5rem);
+      margin-bottom: 1.5rem;
+  }
+}

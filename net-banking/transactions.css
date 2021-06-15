@@ -1,0 +1,150 @@
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    margin-left: 256px;
+    width: auto;
+    height: auto;
+    padding-top: 20px;
+    flex-direction: column;
+    overflow-x: auto;
+}
+
+
+
+
+
+
+@media screen and (max-width: 400px) {
+    select {
+        width: 100%;
+    }
+
+    
+    
+
+   
+}
+
+.flex-container-bb {
+    display: -webkit-flex;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 27px;
+}
+
+
+
+/* Full-width input fields */
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #448AFF;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: transparent;
+    color: black;
+}
+
+label {
+    display: block;
+    float: left;
+    color: #212121;
+    font-family: OpenSans-Bold;
+    font-size: 20px;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-family: OpenSans-Bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 30%;
+    margin-top: 2%;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px #888888;
+    border-radius: 3px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+
+
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+}
+
+/*-----------------------------------------------------*/
+@media screen and (max-width: 855px) {
+    .flex-container, .search-bar-wrapper .search-bar {
+        margin-left: auto;
+    }
+}
+
+#transactions {
+    font-family: OpenSans-Regular;
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width: 1280px) {
+    #transactions {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 855px) {
+    #transactions {
+        width: 85%;
+    }
+}
+
+#transactions td, #transactions th {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#transactions tr:nth-child(even){background-color: #f2f2f2;}
+
+#transactions tr:hover {background-color: #ddd;}
+
+#transactions th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+p[id="none"] {
+    margin: auto;
+    font-size: 40px;
+    color: #212121;
+    font-family: Roboto-Regular;
+}
